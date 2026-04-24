@@ -23,7 +23,7 @@ const UserDetail = () => {
       <img src={BgLogo} className="bg-logo" alt="" />
       <section id="center">
         <code>
-          СВИДЕТЕЛЬСТВО <span>№ {detail?.certificateNumber}</span>
+          Guvohnoma raqami <span>№ {detail?.certificateNumber}</span>
         </code>
         <div className="hero">
           <img
@@ -39,7 +39,7 @@ const UserDetail = () => {
           <h2>
             {detail?.firstName} {detail?.lastName} {detail?.patronymic}
           </h2>
-          <p style={{ marginBottom: "-8px" }}>Квалификация</p>
+          <p style={{ marginBottom: "-8px" }}>Malakasi</p>
           {/* <p>
             <code>ЭЛЕКТРОГАЗОСВАРЩИК</code>
           </p> */}
@@ -49,7 +49,7 @@ const UserDetail = () => {
 
       <div className="ticks"></div>
       <div className="given">
-        <h2>Данный</h2>
+        <h2>Berilgan tashkilot nomi</h2>
         <ul>
           <li>
             <h4>{detail?.given}</h4>
@@ -61,7 +61,7 @@ const UserDetail = () => {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Информация</h2>
+          <h2>Ma'lumotlar</h2>
           <p>
             " SANOAT XAVFSIZLIGI"DQ ob'ektlarida xizmat koʻrsatuvchi
             xodimlarning bilimlarini qayta tekshiruv korxona mamuriyati
@@ -70,14 +70,14 @@ const UserDetail = () => {
           </p>
           <ul>
             <li>
-              <label>Дата рождения</label>
+              <label>Tugʻilgan sana</label>
               <div className="info-box">
                 {/* <img className="logo" src={viteLogo} alt="" /> */}
                 {detail?.birthDate}
               </div>
             </li>
             <li>
-              <label>Паспорт</label>
+              <label>Passport raqami</label>
               <div
                 className="info-box"
                 style={{ fontFamily: "monospace", fontWeight: "bold" }}
@@ -88,15 +88,15 @@ const UserDetail = () => {
               </div>
             </li>
             <li>
-              <label>Номер протокола</label>
+              <label>Bayonnoma raqami</label>
               <div className="info-box">{detail?.protocolNumber}</div>
             </li>
             <li>
-              <label>Дата протокола</label>
+              <label>Bayonnoma roʻyxatdan oʻtgan sana</label>
               <div className="info-box">{detail?.protocolRegistrationDate}</div>
             </li>
             <li>
-              <label>Специализация</label>
+              <label>Mutaxassisligi</label>
               <div className="info-box">{detail?.specialty}</div>
             </li>
           </ul>
@@ -105,8 +105,8 @@ const UserDetail = () => {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Лицензии</h2>
-          <p>Для скачивании нажмите</p>
+          <h2>Litsenziyalar</h2>
+          <p>Yuklab olish uchun</p>
           <ul>
             <li>
               <a href={BandlikPdf} target="_blank" className="info-box">
@@ -117,7 +117,7 @@ const UserDetail = () => {
                 >
                   <use href="/icons.svg#documentation-icon"></use>
                 </svg>
-                Лицензия
+                Litsenziya
               </a>
             </li>
             <li>
@@ -129,7 +129,7 @@ const UserDetail = () => {
                 >
                   <use href="/icons.svg#documentation-icon"></use>
                 </svg>
-                Гувохнома
+                Guvohnoma
               </a>
             </li>
           </ul>

@@ -175,6 +175,9 @@ ul {
 
     li {
       flex: 1 1 calc(50% - 8px);
+      &:nth-child(4) {
+        flex: 1 1 calc(100% - 8px);
+      }
     }
 
     .info-box {
