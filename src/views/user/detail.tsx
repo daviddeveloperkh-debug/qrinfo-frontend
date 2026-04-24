@@ -4,7 +4,7 @@ import { userStore } from "../../store";
 // import viteLogo from "./assets/vite.svg";
 import { useParams, useSearchParams } from "react-router-dom";
 import { BASE_URL } from "../../config";
-import { BandlikPdf, BgLogo, TalimPdf } from "../../assets";
+import { BgLogo } from "../../assets";
 
 const UserDetail = () => {
   const { id } = useParams();
@@ -109,7 +109,11 @@ const UserDetail = () => {
           <p>Yuklab olish uchun</p>
           <ul>
             <li>
-              <a href={BandlikPdf} target="_blank" className="info-box">
+              <a
+                href={"../../../public/bandlik.pdf"}
+                target="_blank"
+                className="info-box"
+              >
                 <svg
                   className="button-icon"
                   role="presentation"
@@ -121,7 +125,7 @@ const UserDetail = () => {
               </a>
             </li>
             <li>
-              <a href={TalimPdf} target="_blank" className="info-box">
+              <a href={"../../../public/talim.pdf"} target="_blank" className="info-box">
                 <svg
                   className="button-icon"
                   role="presentation"
