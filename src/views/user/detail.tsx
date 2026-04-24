@@ -106,11 +106,11 @@ const UserDetail = () => {
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
           <h2>Litsenziyalar</h2>
-          <p>Yuklab olish uchun</p>
+          <p>Ko'rish uchubn</p>
           <ul>
             <li>
               <a
-                href={"../../../public/bandlik.pdf"}
+                href="https://drive.google.com/file/d/1WbpDpW57-vwvosmy6EsWGz8Z8YliNGkm/view?usp=drive_link"
                 target="_blank"
                 className="info-box"
               >
@@ -125,7 +125,13 @@ const UserDetail = () => {
               </a>
             </li>
             <li>
-              <a href={"../../../public/talim.pdf"} target="_blank" className="info-box">
+              <a
+                href={
+                  "https://drive.google.com/file/d/1ujcveKvkmjnNnpRxZzovkaRzcQkw827B/view?usp=drive_link"
+                }
+                target="_blank"
+                className="info-box"
+              >
                 <svg
                   className="button-icon"
                   role="presentation"
