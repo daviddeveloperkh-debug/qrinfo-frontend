@@ -110,7 +110,7 @@ const UserDetail = () => {
           <ul>
             <li>
               <a
-                href="https://drive.google.com/file/d/1WbpDpW57-vwvosmy6EsWGz8Z8YliNGkm/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1fNIoBrCZiBzvbANcOEnnKO6AayyHTrFv/view?usp=drive_link"
                 target="_blank"
                 className="info-box"
               >
